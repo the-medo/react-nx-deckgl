@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-
-import NxWelcome from './nx-welcome';
+import { MapComponent } from './map/mapComponent';
 
 const StyledApp = styled.div`
   // Your style here
@@ -9,7 +8,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="react-nx-deckgl" />
+      <MapComponent />
     </StyledApp>
   );
 }
